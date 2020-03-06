@@ -1,0 +1,34 @@
+
+#textWrapper {
+  width: 650px;
+  margin: 20px;
+  height: 160px;
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  visibility: hidden;
+  position: relative;
+}
+
+#text {
+  position: absolute;
+  color:#666;
+  /*top:0;
+  left:0;*/
+}
+
+#text > div:nth-child(7) {
+  color:#237F0F; /* makes 7th word green */
+}
+
+#cursor {
+  position: absolute;
+  transform: scaleY(4);
+  color: #111111;
+  display: block;
+  width:6px; /* controls thickness */
+  overflow:hidden;
+}
+
+.chars {
+  visibility: hidden;
+}
