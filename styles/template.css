@@ -126,8 +126,8 @@ li {
 
 .text {
   position: absolute;
-  top: 25rem;
-  right: calc(100vw - 70%);
+  top: 25%;
+  right: calc(100vw - 78%);
   transform: translateY(-50%);
   text-align: right;
   color: #494949;

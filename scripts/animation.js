@@ -1,5 +1,5 @@
 TweenMax.from(".voice-of-sea", 2, {
-  delay: 2,
+  delay: 1,
   opacity: 0,
   ease: Expo.easeInOut
 })
