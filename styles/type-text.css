@@ -1,4 +1,4 @@
-
+/* 
 #textWrapper {
   width: 650px;
   margin: 20px;
@@ -12,12 +12,10 @@
 #text {
   position: absolute;
   color:#666;
-  /*top:0;
-  left:0;*/
 }
 
 #text > div:nth-child(7) {
-  color:#237F0F; /* makes 7th word green */
+  color:#237F0F;
 }
 
 #cursor {
@@ -25,10 +23,10 @@
   transform: scaleY(4);
   color: #111111;
   display: block;
-  width:6px; /* controls thickness */
+  width:6px;
   overflow:hidden;
 }
-
+/* 
 .chars {
   visibility: hidden;
-}
+} */
